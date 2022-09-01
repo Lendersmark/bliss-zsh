@@ -4,8 +4,8 @@
 # More Information about Bliss Zsh at:
 # https://github.com/joshjon/bliss-zsh
 
-PROMPT='%B%{$fg[blue]%}[%n]%f %B%{$fg[magenta]%}%~%f%b $(git_prompt_info)
- %{$fg_bold[magenta]%}●%{$reset_color%} '
+PROMPT='%B%F{147}[%n]%f %F{218}%~%f%b $(git_prompt_info)
+ %F{224}●%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_CLEAN=") %{$fg_bold[green]%}✔ "
 ZSH_THEME_GIT_PROMPT_DIRTY=") %{$fg_bold[yellow]%}✗ "
